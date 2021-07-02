@@ -1,0 +1,794 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+/* ==================================================================== */
+                        /* Start  Custom Css Class */
+/* ================================================================= */
+
+.ml-auto{
+    margin-left: auto;
+}
+
+ul.Our-custom-css-for-menu li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #111;
+    font-weight: 400;
+    
+}
+
+.class-for-bg{
+    width: 100wh;
+    height: 100vh;
+    background: #72C0C6;
+}
+.bg-color-sat{
+    background: #93D4D9;
+}
+
+/* ==================================================================== */
+                        /* End   Custom Css Class */
+/* ================================================================= */
+
+
+
+
+
+.fas.fa-search {
+	padding-right: 50px;
+}
+
+.btn-primary{
+    font-family: 'Rubik', sans-serif;
+    background: #111 !important;
+    border:none;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 2;
+}
+.btn-primary:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0;
+    height: 100%;
+    background: #2FACCB;
+    border-radius: 2px;
+    transition: .5s;
+    z-index: -1;
+}
+.btn-primary:hover:after{
+    width:100%;
+}
+.btn-primary::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right:0;
+    width: 0;
+    height: 100%;
+    background:#83D1E4 ;
+    transition: .5s;
+    z-index: -1;
+
+}
+.btn-primary:hover::before{
+    width: 100%;
+}
+ul.Our-custom-css-for-menu{
+    margin-right: 25px;
+}
+
+/*================ Start Drop Down menu ==============*/
+
+ul.Our-custom-css-for-menu li{
+    padding: 10px 0;
+    position: relative;
+    
+
+}
+ul.Our-custom-css-for-menu li ul{
+    padding:0;
+    width: 250px;
+    /* height: 100px; */
+    background:#83D1E4;
+    position: absolute;
+    list-style: none;
+    top:70px;
+    left:0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+ul.Our-custom-css-for-menu li ul:after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 50%;
+    height:100%;
+    background: #2FACCB;
+    transition:.5s;
+
+}
+ul.Our-custom-css-for-menu li ul:hover:after{
+    width: 0;
+}
+ul.Our-custom-css-for-menu li ul::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 50%;
+    height:100%;
+    background: #2FACCB;
+    transition:.5s;
+    z-index:1 ;
+
+}
+ul.Our-custom-css-for-menu li ul:hover::before{
+    width: 0;
+}
+ul.Our-custom-css-for-menu li ul li a{
+    padding: 0;
+    
+}
+
+ul.Our-custom-css-for-menu li:hover ul{
+    opacity:1;
+    visibility: visible;
+    top:56px;
+   
+}
+ul.Our-custom-css-for-menu li ul li{
+    border-top: 1px solid rgba(255, 255, 255,.2);
+   
+    padding:10px 20px;
+    
+}
+ul.Our-custom-css-for-menu li ul li:nth-child(1){
+    border: none;
+}
+
+
+.fas.fa-chevron-down {
+	font-size: 11px;
+	margin-left: 10px;
+}
+
+
+
+/*================ End Drop Down menu ==============*/
+
+
+.hero-section{
+    background: rgb(147, 212, 217);
+    width: 100wh;
+    height: 600px;
+}
+
+.hero-section .hero-content .content{
+    margin-top: 150px;
+}
+
+.hero-section  h1 {
+	font-size: 58px;
+	font-weight: 700;
+    margin-bottom:20px
+}
+.hero-section .hero-content .hero-img img{
+    width: 500px;
+    margin-top: 100px;
+    
+}
+
+
+/* hero-sub-input */
+
+.hero-sub-input{
+    position: relative;
+    width:80%;
+    height:230px;
+    background:linear-gradient(rgba(136, 206, 223,.9),rgba(136, 206, 223,.9)),url(../image/lines.jpg);
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(17, 17, 17,.1),
+                -5px -5px 5px rgba(17, 17, 17,.1);
+                
+    
+
+}
+
+.hero-sub-input .content-1 h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-sub-input .content-1 p{
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #213541;
+}
+
+.hero-sub-input .content-1,
+.hero-sub-input .content-2{
+    padding: 20px;
+    margin-top:10px;
+}
+
+.hero-sub-input .content-2 form input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    outline:none;
+    border: none;
+
+}
+
+
+.hero-sub-input .content-2 form input:nth-child(1){
+    margin-bottom: 20px;
+}
+.hero-sub-input .content-2 form input:nth-child(2){
+    margin-bottom: 20px;
+    
+}
+.hero-sub-input .content-2 form input:nth-child(3){
+    background: #082334;
+    color:white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* ==================================================================== */
+                        /* Start Corona virus Symptoms */
+/* ================================================================= */
+.Coronavirus-Symptoms-wrapper{
+    margin-top: 250px;
+}
+
+.Coronavirus-Symptoms-wrapper .content img{
+    width: 600px;
+    animation:img-ani linear infinite ;
+    animation-duration: 2s;
+}
+@keyframes img-ani {
+    0%{
+        transform: translatey(0);
+    }
+    50%{
+        transform: translatey(20px) ;
+    }
+
+    100%{
+        transform:translatey(0px) ;
+    }
+}
+.Coronavirus-Symptoms-wrapper .row{
+    padding-left:20px ;
+    padding-right:90px ;
+}
+
+.Coronavirus-Symptoms-wrapper .content-1{
+
+    
+}
+.Coronavirus-Symptoms-wrapper .content-1 h2 {
+	font-size: 45px;
+	font-weight: 800;
+}
+.Coronavirus-Symptoms-wrapper .content-1 p {
+	font-size: 14px;
+	
+}
+
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec{
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    border: 2px dotted #8FD5E6;
+    border-radius: 5px;
+    transition: .5s;
+    
+}
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec:hover{
+    background:#8FD5E6;
+}
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec .branding img{
+    width:60px;
+    margin-top: 30px;
+    
+    
+}
+
+
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec > div:nth-child(2){
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec > div{
+    
+} 
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec > div h4 {
+	font-size: 19px;
+	font-weight: 700;
+}
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec > div p{
+    font-size:16px
+}
+
+
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec .class-for-padding{
+    margin-left: 50px;
+}
+
+.Coronavirus-Symptoms-wrapper .content-1 .sub-sec {
+    margin-top: 50px;
+}
+/* ==================================================================== */
+                        /* end Corona virus Symptoms */
+/* ================================================================= */
+
+
+
+
+
+/* ==================================================================== */
+                        /* Start How-to-protect-yourself-wrapper*/
+/* ================================================================= */
+
+.How-to-protect-yourself-wrapper{
+    margin:100px;
+}
+.How-to-protect-yourself-content{
+    background: url(../image/25.png);
+
+}
+
+.How-to-protect-yourself-content .card-1{
+    background-color: #fff;
+    text-align: center;
+    padding: 35px 25px;
+    box-shadow: -8px -8px 8px rgba(51, 50, 45, 0.06),
+    8px 8px 8px rgba(51, 50, 45, 0.06);
+    position: relative;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    border-radius: 6px;
+    transition: .9s;
+    margin:0 20px;
+
+}   
+.How-to-protect-yourself-content .card-1:hover {
+    transform:scale(1.1);
+    background:#203847;
+    color: white;
+}    
+
+.How-to-protect-yourself-content img{
+    width:80px;
+    margin-bottom:30px
+}
+
+.How-to-protect-yourself-content h2{
+    color: #111;
+    font-size: 21px;
+    font-weight: 700;
+}
+.How-to-protect-yourself-content p{
+    color: #111;
+    font-weight: 300;
+    font-size:14px;
+    margin-bottom: 20px;
+}
+
+.How-to-protect-yourself-content a{
+    text-decoration:none;
+    color: #31B2C9;
+    font-weight: 600;
+    transition:.5s;
+}
+.How-to-protect-yourself-content a:hover{
+    letter-spacing: 2px;
+
+}
+/* ==================================================================== */
+                        /* end How-to-protect-yourself-wrapper*/
+/* ================================================================= */
+
+
+
+
+.Meet-Top-Doctors h2{
+    font-size:50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.Meet-Top-Doctors .content{
+    text-align: center;
+}
+.Meet-Top-Doctors .content img{
+    width:200px;
+    border-radius: 50%;
+    /* border: none;
+    border: 1px solid transparent; */
+    padding: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.Meet-Top-Doctors .content img::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #111;
+    border-radius: 50%;
+    top:0;
+    left:0;
+}
+.Meet-Top-Doctors .content h3 {
+	font-weight: 800;
+	margin-top: 30px;
+    transition: .4s;
+}
+.Meet-Top-Doctors .content span{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.Meet-Top-Doctors .content > div {
+    margin-top: 10px;
+}
+.Meet-Top-Doctors .content > div span{
+    
+    font-size:15px ;
+    padding:20px;
+
+}
+.Meet-Top-Doctors .content > div span:nth-child(1){
+    position: relative;
+}
+.Meet-Top-Doctors .content .line-icons span:nth-child(1)::after {
+	content: '__';
+	position: absolute;
+	top: 16px;
+	left: 40px;
+	font-size: 13px;
+    color: #83D1E4;
+    
+}
+.Meet-Top-Doctors .content > div span:nth-child(2){
+    position: relative;
+}
+.Meet-Top-Doctors .content > div span:nth-child(2)::after {
+	content: '__';
+	position: absolute;
+	top: 16px;
+	left: 45px;
+	font-size: 13px;
+    color: #83D1E4;
+}
+
+.Meet-Top-Doctors .content .branding-and-icons{
+    position: relative;
+    transition: .5s;
+    
+}
+
+.Meet-Top-Doctors .content .branding-and-icons > div span {
+	position: absolute;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	background: #83D1E4;
+	border-radius: 50%;
+	color: #111;
+	padding: 0;
+	
+	line-height: 40px;
+	top: 20px;
+	left: 158px;
+    transition: .5s;
+}
+.Meet-Top-Doctors .content .branding-and-icons {
+	border: 1px solid #83D1E4;
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+}
+.Meet-Top-Doctors .content .branding-and-icons::after {
+	content: '';
+	position: absolute;
+	background: url(../image/dot-circle.png);
+	border-radius: 80px;
+	width: 223px;
+	height: 216px;
+	top: -8px;
+	left: -10px;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+.Meet-Top-Doctors .content .branding-and-icons:hover::after{
+        opacity: 1;
+        visibility: visible;
+        
+}
+.Meet-Top-Doctors .content img:hover{
+    border: none;
+}
+
+.Meet-Top-Doctors .content .branding-and-icons:hover > div span{
+    transform: rotate(360deg);
+}
+
+.Meet-Top-Doctors .content:hover h3{
+    color:#83D1E4;
+}
+
+
+/* Mary-Jane-wrapper */
+.Mary-Jane-wrapper .content-1{
+    padding:80px;
+    color: white;
+} 
+.Mary-Jane-wrapper .container{
+    background:#082334;
+    margin-top:100px;
+    overflow:hidden;
+}
+
+.Mary-Jane-wrapper .content-1 p {
+	color: white;
+	font-size: 25px;
+	/* padding: 88px; */
+}
+
+
+.Mary-Jane-wrapper .content-1 span{
+    color:#31B2C3;
+    font-size:18px;
+    position: relative;
+    margin-left: 90px;
+    transition: .4s;
+    
+
+    
+}
+.Mary-Jane-wrapper .content-1 span::after {
+	content: '';
+	position: absolute;
+	width: 54px;
+	height: 2px;
+	background: #31B2C3;
+	top: 10px;
+	left: -86px;
+	
+}
+
+.Mary-Jane-wrapper .content img{
+    width:112%;
+    
+
+}
+
+/* Latest News & Blogs */
+
+
+.Latest-News-Blogs-wrapper{
+    margin-top: 100px;
+}
+.Latest-News-Blogs-wrapper h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.Latest-News-Blogs-wrapper .content-3 .post-img img{
+    width: 100%;
+}
+.Latest-News-Blogs-wrapper .content-3 .post-img{
+    position: relative;
+}
+/* .Latest-News-Blogs-wrapper .content-1 .post-img > div  */
+.Latest-News-Blogs-wrapper .content-3 .post-img > div {
+	position: absolute;
+	top: 175px;
+	left: 27px;
+	background: #082334;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 11px;
+	width: 137px;
+	height: 32px;
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	line-height: 13px;
+    transition: .4s;
+}
+.Latest-News-Blogs-wrapper .content-3:hover .post-img > div span{
+    color:#111 ;
+    transition: .4s;
+    
+}
+.Latest-News-Blogs-wrapper .content-3:hover .post-img > div{
+    background: #31B2C3;
+}
+.Latest-News-Blogs-wrapper .content-3 .post-img span{
+    font-weight: 600;
+}
+.Latest-News-Blogs-wrapper .content-3 p{
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-top:30px;
+    line-height: 25px;
+
+}
+
+
+
+
+/* Do You Need Our Help? */
+
+.Do-You-Need-Our-Help{
+    position: relative;
+    margin-top: 150px;
+    background: #082334;
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+
+.inputfild-custoom{
+    position: absolute;
+    top:-50px;
+    right: 100px;
+
+}
+.inputfild-custoom{
+    background: #02141F;
+    width: 450px;
+    
+}
+
+.Do-You-Need-Our-Help .content .frist-follter-line img{
+    margin-bottom: 30px;
+}
+.Do-You-Need-Our-Help .content .frist-follter-line p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.Do-You-Need-Our-Help .content .frist-follter-line .line-icons span{
+    padding:0 25px;
+}
+.Do-You-Need-Our-Help .content .frist-follter-line .line-icons span{
+    position: relative;
+}
+.Do-You-Need-Our-Help .content .frist-follter-line .line-icons span:nth-child(1){
+    padding-left: 0;
+}
+.Do-You-Need-Our-Help .content .frist-follter-line .line-icons span:nth-child(1)::after {
+	content: '__';
+	position: absolute;
+	top: -2px;
+	left: 28px;
+	font-size: 13px;
+	color: #83D1E4;
+}
+.Do-You-Need-Our-Help .content .frist-follter-line .line-icons span:nth-child(2)::after{
+    content: '__';
+	position: absolute;
+	top: -2px;
+	left: 57px;
+	font-size: 13px;
+    color: #83D1E4;
+
+}
+.Do-You-Need-Our-Help .content .frist-follter-line .line-icons span:nth-child(3)::after{
+    content: '__';
+	position: absolute;
+	top: -2px;
+	left: 55px;
+	font-size: 13px;
+    color: #83D1E4;
+
+}
+
+
+.Do-You-Need-Our-Help .content{
+    margin-top: 200px;
+}
+
+.Do-You-Need-Our-Help .content .secont-follter-line h2 {
+	font-size: 18px;
+	font-weight: 700;
+    color: white;
+}
+.Do-You-Need-Our-Help .content .secont-follter-line > div span{
+    font-size:14px;
+    padding-bottom:10px ;
+    color: #d1d1cc;
+    transition: .4s;
+}
+/* .Do-You-Need-Our-Help .content .secont-follter-line > div span::after{
+    content: '';
+    width: 50px;
+} */
+.Do-You-Need-Our-Help .content .secont-follter-line > div span:hover{
+    color: #83D1E4;
+    transform: translatex(10px);
+}
+.Do-You-Need-Our-Help .content .Thard-follter-line > div span:hover{
+    color: #83D1E4;
+    transform: translatex(10px);
+}
+.Do-You-Need-Our-Help .content .Thard-follter-line > div span{
+    font-size:14px;
+    padding-bottom:10px ;
+    color: #d1d1cc;
+    transition: .4s;
+}
+.Do-You-Need-Our-Help .content .Thard-follter-line h2 {
+    font-size: 18px;
+	font-weight: 700;
+}    
+
+.Do-You-Need-Our-Help .content .inputfild-custoom{
+    text-align: center;
+    padding: 50px;
+}
+.Do-You-Need-Our-Help .content .inputfild-custoom h2{
+    font-size: 30px;
+    font-weight:700;
+}
+.Do-You-Need-Our-Help .content .inputfild-custoom p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.Do-You-Need-Our-Help .content .inputfild-custoom form input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    outline:none;
+    transition: .4s;
+}
+
+.Do-You-Need-Our-Help .content .inputfild-custoom form input:nth-child(4){
+    font-weight: 600;
+    font-size: 14px;
+    background: #83D1E4;
+
+}
+
+.Do-You-Need-Our-Help .content .inputfild-custoom form input::placeholder{
+    background: #ddd;
+}
+
+.Do-You-Need-Our-Help .content .inputfild-custoom form input:hover{
+    background: #83D1E4;
+}
+
+.Do-You-Need-Our-Help .container hr{
+    margin-top: 200px;
+}
+.Do-You-Need-Our-Help .container .copy-right{
+    text-align: center;
+}
+/* .input-field form */
